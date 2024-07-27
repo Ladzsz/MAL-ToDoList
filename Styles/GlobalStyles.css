@@ -1,0 +1,54 @@
+/*Colors used in program*/
+
+/* #D9C3C2 Backround color (Beige)
+
+#8A7F8D Sub color (purplish color) */
+
+
+/*importing font to use*/
+
+/* Regular weight */
+@font-face {
+    font-family: 'OutfitFont';
+    src: url('../fonts/Outfit-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+    font-family: 'OutfitFont';
+    src: url('../fonts/Outfit-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ExtraBold weight */
+@font-face {
+    font-family: 'OutfitFont';
+    src: url('../fonts/Outfit-ExtraBold.woff2') format('woff2');
+    font-weight: 800; 
+    font-style: normal;
+}
+
+/* Italic style */
+@font-face {
+    font-family: 'OutfitFont';
+    src: url('../fonts/Outfit-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Bold Italic style */
+@font-face {
+    font-family: 'OutfitFont';
+    src: url('../fonts/Outfit-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*styling the backround color of the page*/
+
+html {
+    background-color: #D9C3C2;
+}
