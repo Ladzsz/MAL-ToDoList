@@ -52,3 +52,8 @@
 html {
     background-color: #D9C3C2;
 }
+
+/*adding the fonts to the body*/
+body {
+    font-family: 'OutfitFont', 'Roboto', sans-serif;
+}
