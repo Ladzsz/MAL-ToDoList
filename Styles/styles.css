@@ -59,3 +59,123 @@ header > a:hover {
     color: darkblue;
 }
 
+/*styling the card section*/
+
+.card_section {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*styling the top of card section*/
+
+.top_card_sec {
+    text-align: center;
+}
+
+/*styling add btn*/
+
+.add-btn {
+    margin-top: 2%;
+    background-color: #8A7F8D;
+    color: black;
+    padding: 20px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    color: #D9C3C2;
+}
+
+/*styling card section*/
+
+.card_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+/*styling the created task cards*/
+
+.card {
+    background-color: #8A7F8D;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    min-height: 200px; 
+    box-sizing: border-box;
+    overflow: hidden; 
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*styling the card container*/
+.card-container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/*styling the button area on card*/
+
+.task-btns-area {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/*Styling the buttons in the button area*/
+
+.edit-btn {
+    padding: 10px;
+    background-color: #D9C3C2;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #8A7F8D;
+}
+
+.remove-btn {
+    padding: 10px;
+    background-color: #D9C3C2;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #8A7F8D;
+}
+
+.done-btn {
+    padding: 10px;
+    background-color: #D9C3C2;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.done-btn:hover {
+    background-color: #8A7F8D;
+}
