@@ -59,3 +59,24 @@ header > a:hover {
     color: darkblue;
 }
 
+/*styling the card section*/
+
+.card_area {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.add-btn {
+    margin-top: 2%;
+    background-color: #8A7F8D;
+    color: black;
+    padding: 20px;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    color: #D9C3C2;
+}
