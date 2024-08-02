@@ -119,12 +119,15 @@ header > a:hover {
 }
 
 /*styling the card container*/
+
 .card-container {
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 /*styling the button area on card*/
